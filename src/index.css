@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+.fade-anim img {
+  animation: fadeAnim 0.5s ease-out;
+}
+
+
+@keyframes fadeAnim {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+#footer {
+  font-family: 'Courgette', cursive;
+ 
+}
+
+h2 {
+  font-family: 'Courgette', cursive;}
+
+h1 {
+  font-family: 'Righteous', cursive;}
+
+ul {
+  font-family: 'Roboto Condensed', sans-serif;
+}  
+html, body, #app, #app>div {
+  height: 100%
+
+}
+.swiper {
+  width: 600px;
+  height: 300px;
+}
